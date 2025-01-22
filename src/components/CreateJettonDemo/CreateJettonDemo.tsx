@@ -31,7 +31,7 @@ export const CreateJettonDemo = () => {
 
 	return (
 		<div className="create-jetton-demo">
-			<h3>Create Jetton</h3>
+			{/* <h3>Create Jetton</h3>
 			{wallet ? (
 				<button onClick={handleClick}>
 					Send create jetton
@@ -39,7 +39,7 @@ export const CreateJettonDemo = () => {
 			) : (
 				<div className="ton-proof-demo__error">Connect wallet to send transaction</div>
 			)}
-			<ReactJson src={data} name="response" theme="ocean" />
+			<ReactJson src={data} name="response" theme="ocean" /> */}
 		</div>
 	);
 }
